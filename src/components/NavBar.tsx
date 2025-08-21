@@ -1,7 +1,7 @@
 const NavBar = () => {
   return (
     <>
-      <div className="top-0 flex ... items-center mt-2">
+      <div className="top-0 flex lg:ml-0 ... items-center mt-2">
         <div className="w-1/6">
           <h3 className="w font-light text-2xl">Omar Rico</h3>
         </div>
