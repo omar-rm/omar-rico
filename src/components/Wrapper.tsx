@@ -1,3 +1,5 @@
+import ProfileImg from "../assets/profile.jpg";
+
 const Wrapper = () => {
   return (
     <div className="mt-15 mb-10 lg:w-4/6 md:w-5/6  flex flex-col justify-center mx-auto">
@@ -39,7 +41,7 @@ const Banner = () => {
       </div>
 
       <div>
-        <img src="/assets/profile.jpg" alt="profile" className="rounded-full" />
+        <img src={ProfileImg} alt="profile" className="rounded-full" />
       </div>
 
 
