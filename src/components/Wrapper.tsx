@@ -28,6 +28,7 @@ const Banner = () => {
           <span className="w-full font-black text-4xl my-3.5 text-stone-300 uppercase">
             {" "}
             junior software developer
+          
           </span>
         </div>
         <h2 className=" my-3 text-xl text-left text-stone-400">
