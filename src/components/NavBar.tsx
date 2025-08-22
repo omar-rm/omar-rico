@@ -5,7 +5,8 @@ const NavBar = () => {
         <div className="md:flex items-center w-1/4 gap-4 lg:gap-8 border-solid border-white justify-center  ">
           <h3 className="font-light lg:text-2xl">Omar Rico</h3>
         </div>
-        <div className=" md:flex items-center gap-4 lg:gap-8  lg:px-10 w-2/4 justify-between px-5  box rounded-full overflow-hidden">
+        {/* Menu links  */}
+        <div className=" sm:flex md:flex items-center gap-4 lg:gap-8 w-2/4 justify-between px-10 mx-10  box rounded-full overflow-hidden">
           <a href="Banner" className=" group flex flex-col gap-2">
             Home
           </a>
