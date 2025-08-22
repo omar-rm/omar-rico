@@ -6,7 +6,7 @@ const NavBar = () => {
           <h3 className="font-light lg:text-2xl">Omar Rico</h3>
         </div>
         {/* Menu links  */}
-        <div className=" sm:flex md:flex items-center gap-4 lg:gap-8 w-2/4 justify-between px-10 mx-10  box rounded-full overflow-hidden">
+        <div className=" sm:flex md:flex items-center gap-2 lg:gap-8 w-2/4 justify-between px-7 mx-10  box rounded-full overflow-hidden">
           <a href="Banner" className=" group flex flex-col gap-2">
             Home
           </a>
