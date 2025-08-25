@@ -18,11 +18,11 @@ const Banner = () => {
   return (
     <div
       id="banner"
-      className="box grid grid-cols-3 gap-3 px-7 py-11 m-4 rounded-2xl"
+      className="box flex gap-3 px-7 py-11 m-4 rounded-2xl"
     >
-      <div className="flex col-span-2 items-center justify-center">
-        <div className="w-3/4 h-auto">
-          <p className="font-light w-full text-left text-3xl text-stone-400">
+      <div className=" w-1/3 pr-5">
+        <div className=" h-auto">
+          <p className="font-light  text-left text-3xl text-stone-400">
             Omar Rico
           </p>
           <span className="w-full font-black text-4xl my-3.5 text-stone-300 uppercase">
@@ -31,7 +31,12 @@ const Banner = () => {
           
           </span>
         </div>
-        <h2 className=" my-3 text-xl text-left text-stone-400">
+
+      </div>
+
+      <div className="w-4/6 items-center flex flex-col pl-5">
+        <img src={ProfileImg} alt="profile" className="rounded-full size-50" />
+        <h2 className="text-justify my-3 text-xl  text-stone-400">
           Welcome to my portfolio!I am a junior developer with 2 years of
           experience building and designing web applications. I have a constant
           desire to learn and create solutions. Living in Ireland for the last 7
@@ -39,10 +44,6 @@ const Banner = () => {
           to diverse projects with a passion for programming and a desire to
           contribute to meaningful projects.
         </h2>
-      </div>
-
-      <div>
-        <img src={ProfileImg} alt="profile" className="rounded-full" />
       </div>
 
 
